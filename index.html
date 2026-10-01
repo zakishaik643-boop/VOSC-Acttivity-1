@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOSC Activity 1 - Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <!-- Header Section -->
+        <header class="game-header">
+            <span class="badge">VOSC Activity 1</span>
+            <h1 class="game-title">Tic-Tac-Toe</h1>
+        </header>
+
+        <!-- Turn & Status Message Display -->
+        <div class="status-container" id="status">
+            Player <span id="current-player" class="player-x">X</span>'s Turn
+        </div>
+
+        <!-- 3x3 Game Board -->
+        <div class="board" id="board">
+            <button class="cell" data-cell-index="0" aria-label="Cell 1"></button>
+            <button class="cell" data-cell-index="1" aria-label="Cell 2"></button>
+            <button class="cell" data-cell-index="2" aria-label="Cell 3"></button>
+            <button class="cell" data-cell-index="3" aria-label="Cell 4"></button>
+            <button class="cell" data-cell-index="4" aria-label="Cell 5"></button>
+            <button class="cell" data-cell-index="5" aria-label="Cell 6"></button>
+            <button class="cell" data-cell-index="6" aria-label="Cell 7"></button>
+            <button class="cell" data-cell-index="7" aria-label="Cell 8"></button>
+            <button class="cell" data-cell-index="8" aria-label="Cell 9"></button>
+        </div>
+
+        <!-- Action Controls -->
+        <div class="controls">
+            <button id="restart-btn" class="restart-btn">Restart Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
